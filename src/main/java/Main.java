@@ -1,6 +1,5 @@
 import Model.Transaction;
 import ServiceLayer.TransactionService;
-
 import java.util.Scanner;
 
 public class Main {

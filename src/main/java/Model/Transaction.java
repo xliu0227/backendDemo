@@ -8,7 +8,7 @@ public class Transaction {
     double amount;
 
     public Transaction(String currency, double amount){
-        this.currency = currency;
+        this.currency = currency.toUpperCase();
         this.amount = amount;
     }
 
